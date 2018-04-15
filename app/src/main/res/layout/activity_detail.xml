@@ -5,7 +5,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.udacity.sandwichclub.DetailActivity">
-
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
     <ImageView
         android:id="@+id/image_iv"
         android:layout_width="match_parent"
@@ -48,6 +50,5 @@
         android:layout_height="wrap_content"
         android:text="@string/detail_description_label"
         android:textStyle="bold"  />
-
-
+</ScrollView>
 </LinearLayout>
